@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  height: 100vh;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: lightgray;
+  align-items: center;
+  margin: 5rem;
+  font-size: 1rem;
+  border: none;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+nav.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0 0 10px darkgray;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
